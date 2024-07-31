@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -58,7 +58,7 @@ img {
 }
 
 /* #76290B
-#1e3226 
+#036d2e
 #9db0a3*/
 
 /* Global CSS End */
@@ -136,13 +136,14 @@ img {
   margin-left: 10px;
 }
 .contact ul li a{
-font-size: 18px;
+font-size: 20px;
 font-weight: 500;
 }
 
 
 .main-navbar ul li a.active {
   color: #76290B;
+  color: #036d2e ;
   border-bottom: 1px solid #76290B;
 }
 
@@ -170,14 +171,15 @@ font-weight: 500;
 
 .site-header.fixed-header {
   background-color: #fff;
-  color:#76290B;
+  color:#036d2e;
 }
 .site-header.fixed-header .menu-icon {
-  color: #76290B;
-  border-color:#76290B;
+  color: #036d2e;
+  border-color:#036d2e;
 }
 .site-header.fixed-header .contact ul li a{
-  color: #76290B;
+  color: #036d2e;
+  font-weight: 500;
 }
 
 .desktop-menu {
@@ -553,23 +555,17 @@ background-blend-mode: multiply;
 
 }
 
-
-
 .pages-cards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 30px;
-  border: 1px solid #76290B;
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
-
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 13px -20px, rgba(0, 0, 0, 0.3) 0px 30px 15px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .pages-cards:nth-child(even){
-  flex-direction: row-reverse ;
-}
-.pages-cards:last-child{
-  margin-bottom: 0;
+  flex-direction: row-reverse;
 }
 .pages-cards-image {
   width: 40%;
@@ -604,10 +600,10 @@ background-blend-mode: multiply;
 }
 .heading-like{
   font-weight: 700;
-  color: #76290B;
+  color: #036d2e;
 }
 .list-icon {
-  color:#76290B;
+  color:#036d2e;
   margin-right: 10px;
   display: inline-block;
 }
