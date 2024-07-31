@@ -140,8 +140,8 @@ font-weight: 500;
 
 
 .main-navbar ul li a.active {
-  color: #163a68;
-  border-bottom: 1px solid #163a68;
+  color: #76290B;
+  border-bottom: 1px solid #76290B;
 }
 
 .footer .footer-links ul li a,
@@ -152,30 +152,29 @@ font-weight: 500;
 
 .footer .footer-links ul li a.active,
 .footer-quick-links ul li a.active {
-  color: #163a68;
+  color: #76290B;
 }
 
 .footer .footer-links ul li a:hover,
 .footer-quick-links ul li a:hover {
-  color: #163a68;
-  border-bottom: 1px solid #163a68;
+  border-bottom: 1px solid #fff;
 }
 
 .main-navbar ul li a:hover {
-  color: #163a68;
+  color: #1e3226;
 }
 
 
 .site-header.fixed-header {
   background-color: #fff;
-  color: #1e3226;
+  color:#76290B;
 }
 .site-header.fixed-header .menu-icon {
-  color: #1e3226;
-  border-color:#1e3226;
+  color: #76290B;
+  border-color:#76290B;
 }
 .site-header.fixed-header .contact ul li a{
-  color: #1e3226;
+  color: #76290B;
 }
 
 .desktop-menu {
@@ -383,10 +382,6 @@ font-weight: 500;
   padding: 30px 0;
 }
 
-.home-page-content-text {
-  padding: 20px;
-}
-
 .home-page-content-text p {
   margin-bottom: 10px;
   color: #545556;
@@ -444,7 +439,7 @@ font-weight: 500;
 
 /* Footer CSS Start */
 .footer {
-  background-color: #fcebdd;
+background-image: url("../images/footer-bg.jpg");
   padding: 40px 0;
 }
 
@@ -470,7 +465,7 @@ font-weight: 500;
 .footer-items h3 {
   font-size: 25px;
   margin-bottom: 12px;
-  color: #163a68;
+  color: #fff;
 }
 
 .footer-items .social-icons {
@@ -481,7 +476,7 @@ font-weight: 500;
 .footer-items ul li a {
   font-size: 17px;
   padding: 2px 0;
-  color: #545556;
+  color: #fff;
   font-weight: 500;
 }
 
@@ -489,12 +484,12 @@ font-weight: 500;
   padding: 15px 0;
   text-align: center;
   margin: auto 0;
-  border-top: 1px solid #163a68;
-  border-bottom: 1px solid #163a68;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 
 .copyright p {
-  color: #545556;
+  color: #fff;
   text-align: center;
   font-weight: 500;
 }
