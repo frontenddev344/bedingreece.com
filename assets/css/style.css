@@ -152,12 +152,13 @@ font-weight: 500;
 
 .footer .footer-links ul li a.active,
 .footer-quick-links ul li a.active {
-  color: #76290B;
+  border-color: #fff;
 }
 
 .footer .footer-links ul li a:hover,
 .footer-quick-links ul li a:hover {
   border-bottom: 1px solid #fff;
+  transform: translateX(5px);
 }
 
 .main-navbar ul li a:hover {
@@ -379,7 +380,7 @@ font-weight: 500;
 
 /* Home Page Content Section CSS Start */
 .home-page-content {
-  padding: 30px 0;
+  padding: 45px 0;
 }
 
 .home-page-content-text p {
@@ -391,6 +392,9 @@ font-weight: 500;
 /* Home Page Content Section CSS End */
 
 /* Home Page Cards Section CSS Start*/
+section.home-page-cards-section {
+  padding: 20px 0;
+}
 .home-page-cards-wrapper {
   display: flex;
   justify-content: space-between;
@@ -398,9 +402,9 @@ font-weight: 500;
 }
 
 .home-page-cards {
-  width: 32%;
+  width: 31%;
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom:40px;
   overflow: hidden;
   border-radius: 5px;
 }
@@ -439,7 +443,10 @@ font-weight: 500;
 
 /* Footer CSS Start */
 .footer {
-background-image: url("../images/footer-bg.jpg");
+background-image: url("../images/footer-bg1.jpg");
+background-color:rgba(0 0 0/50%);
+background-position: center;
+background-blend-mode: multiply;
   padding: 40px 0;
 }
 
@@ -465,7 +472,7 @@ background-image: url("../images/footer-bg.jpg");
 .footer-items h3 {
   font-size: 25px;
   margin-bottom: 12px;
-  color: #fff;
+  color:#fff;
 }
 
 .footer-items .social-icons {
@@ -475,7 +482,7 @@ background-image: url("../images/footer-bg.jpg");
 
 .footer-items ul li a {
   font-size: 17px;
-  padding: 2px 0;
+  padding: 7px 0;
   color: #fff;
   font-weight: 500;
 }
@@ -495,3 +502,38 @@ background-image: url("../images/footer-bg.jpg");
 }
 
 /* Footer CSS End */
+
+/* Social Icons CSS Start */
+.social-icons {
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.desktop-menu .social-icons {
+  justify-content: flex-end;
+}
+
+.social-icons i {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 17px;
+  background-color: #fffcfc;
+  color:#76290B;
+  line-height: normal;
+  margin: 0 1px;
+  transition: 0.3s all ease-in-out;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.social-icons i:hover {
+  transform: scale(1.1);
+}
+
+
+/* Social Icons CSS End */
