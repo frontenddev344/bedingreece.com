@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -9,19 +11,19 @@
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
   word-break: break-word;
 }
 
 button,
 input,
 textarea {
-  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 h1,
@@ -326,7 +328,7 @@ font-weight: 500;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0 0 0/60%);
+  background-color: rgba(0 0 0/70%);
   background-blend-mode: multiply;
   overflow: hidden;
 }
@@ -481,11 +483,9 @@ background-blend-mode: multiply;
 
 
 .footer-items ul li a {
-  font-size: 17px;
   padding: 7px 0;
   color: #fff;
-  font-weight: 500;
-}
+ }
 
 .copyright {
   padding: 15px 0;
@@ -534,6 +534,107 @@ background-blend-mode: multiply;
 .social-icons i:hover {
   transform: scale(1.1);
 }
-
-
 /* Social Icons CSS End */
+
+
+/* Pages CSS Start */
+.pages-intro {
+  padding-top: 50px;
+}
+.pages-intro-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.pages-intro-wrapper p {
+  margin-bottom: 10px;
+  font-size: 17px;
+  color:#545556;
+
+}
+
+
+
+.pages-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  border: 1px solid #76290B;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+.pages-cards:nth-child(even){
+  flex-direction: row-reverse ;
+}
+.pages-cards:last-child{
+  margin-bottom: 0;
+}
+.pages-cards-image {
+  width: 40%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.pages-cards-image img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.pages-cards-content{
+  width: 60%;
+  padding: 20px;
+}
+.pages-cards-content ul li {
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: #545556;
+}
+.pages-cards-text-group {
+  margin: 14px 0px;
+}
+.pages-cards-text-group p{
+  font-size: 17px;
+  margin-bottom: 5px;
+  color: #545556;
+
+}
+.pages-cards-text-group p:last-child{
+  margin-bottom: 0;
+}
+.heading-like{
+  font-weight: 700;
+  color: #76290B;
+}
+.list-icon {
+  color:#76290B;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.pages-cards-section {
+  padding: 50px 0;
+}
+.pages-after-cards-text-section {
+  padding-bottom: 50px;
+}
+
+.pages-after-cards-text-wrapper p {
+  margin: 0 auto 10px auto;
+  color: #545556;
+  max-width: 1100px;
+  font-size: 17px;
+
+}
+
+.pages-after-cards-text-wrapper p:last-child {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+/* Pages CSS End */
+
