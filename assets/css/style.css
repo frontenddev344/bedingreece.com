@@ -1,77 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@font-face {
-    font-family: myFont;
-    src: url("../fonts/Belfina\ Husairy.otf");
-  }
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Inter", sans-serif;
-    word-break: break-word;
-  }
-  
-  button,input,textarea {
-    font-family: "Inter", sans-serif;
-    font-size: 14px;
-  }
-  p{
-    line-height: 1.5;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: myFont;
-  }
-  
-  ul {
-    list-style-type: none;
-  }
-  
-  a {
-    text-decoration: none;
-    color: inherit;
-    display: inline-block;
-  }
-  
-  img {
-   max-width: 100%;
-    object-fit: cover;
-  }
-  
-  .container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  word-break: break-word;
+}
+
+button,
+input,
+textarea {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Archivo", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 
 /* #76290B
 #1e3226 
 #9db0a3*/
 
-  /* Global CSS End */
+/* Global CSS End */
 
-  /*Header CSS Start */
+/*Header CSS Start */
 .site-header {
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   width: 100%;
   margin: 0 auto;
   z-index: 999;
- }
- .logo{
+  border-bottom: 1px solid #fff;
+  padding: 10px 0;
+}
+
+.logo {
   text-align: center;
- }
+}
 
 .logo img {
   width: 100%;
@@ -86,7 +91,7 @@
   display: flex;
   gap: 10px;
   justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
 
 .main-navbar {
@@ -109,7 +114,7 @@
 }
 
 .main-navbar ul li a {
-  padding:10px;
+  padding: 10px;
   display: inline-block;
   color: #545556;
   transition: 0.5sec all ease-in;
@@ -118,57 +123,72 @@
   cursor: pointer;
   text-transform: uppercase;
   border-bottom: 1px solid transparent;
-}
-.main-navbar .dropdown li a{
-  line-height: 25px;
+  font-weight: 500;
 }
 
+.main-navbar .dropdown li a {
+  line-height: normal;
+}
+
+.dropdown-arrow {
+  margin-left: 10px;
+}
+.contact ul li a{
+font-size: 18px;
+font-weight: 500;
+}
 
 
 .main-navbar ul li a.active {
   color: #163a68;
-border-bottom: 1px solid #163a68;
+  border-bottom: 1px solid #163a68;
 }
 
-.footer .footer-links ul li a,.footer-quick-links ul li a {
+.footer .footer-links ul li a,
+.footer-quick-links ul li a {
   border-bottom: 1px solid transparent;
   transition: 0.6s all ease;
 }
 
-.footer .footer-links ul li a.active ,.footer-quick-links ul li a.active {
+.footer .footer-links ul li a.active,
+.footer-quick-links ul li a.active {
   color: #163a68;
 }
 
-.footer .footer-links ul li a:hover,.footer-quick-links ul li a:hover  {
+.footer .footer-links ul li a:hover,
+.footer-quick-links ul li a:hover {
   color: #163a68;
   border-bottom: 1px solid #163a68;
 }
 
 .main-navbar ul li a:hover {
   color: #163a68;
- }
-
-.close-icon {
-  display: none;
-  cursor: pointer;
 }
 
 
+.site-header.fixed-header {
+  background-color: #fff;
+  color: #1e3226;
+}
+.site-header.fixed-header .menu-icon {
+  color: #1e3226;
+  border-color:#1e3226;
+}
+.site-header.fixed-header .contact ul li a{
+  color: #1e3226;
+}
 
-
-
-/* .fixed-header {
-    background-color: #fffcfc;
-  } */
 .desktop-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #fff;
 }
+
 
 .menu-icon {
   display: none;
-  color: #163a68;
+  color: #fff;
   font-size: 19px;
   text-align: right;
   cursor: pointer;
@@ -176,15 +196,15 @@ border-bottom: 1px solid #163a68;
   cursor: pointer;
 }
 
-/* Header CSS End */
+
 
 .main-navbar {
   position: fixed;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #fcebdd;
+  height: 100vh;
+  width: 50%;
+  background-color: #1e3226;
   transform: translateX(-100%);
   transition: all 0.2s linear;
   z-index: 50;
@@ -204,6 +224,7 @@ border-bottom: 1px solid #163a68;
 
 .main-navbar ul li a {
   font-size: 16px;
+  color: #fff;
 }
 
 .main-navbar ul li a:hover {
@@ -232,14 +253,17 @@ border-bottom: 1px solid #163a68;
   top: 20px;
   right: 20px;
   display: block;
-  color: #163a68;
+  color: #fff;
   text-align: end;
   z-index: 51;
+  cursor: pointer;
 }
 
 .menu-icon {
-  display: block;
+  display: inline-block;
   font-size: 23px;
+  padding: 5px 15px;
+  border: 1px solid #fff;
 }
 
 .desktop-menu .social-icons {
@@ -264,3 +288,215 @@ border-bottom: 1px solid #163a68;
 .desktop-menu-option-hide {
   display: block;
 }
+
+.button-dropdown {
+  position: relative;
+}
+
+.main-navbar .dropdown.dropping .dropdown {
+  display: block;
+}
+
+/* Header CSS End */
+
+
+/* Banner Section CSS Start */
+.banner {
+  position: relative;
+}
+
+.banner-image {
+  height: 650px;
+  width: 100%;
+}
+
+.banner-image img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0 0 0/60%);
+  background-blend-mode: multiply;
+  overflow: hidden;
+}
+
+.banner-first-letter {
+  font-size: 75px;
+  font-family: "Cinzel", serif;
+}
+
+.banner-text h1 {
+  font-size: 55px;
+  color: #fff;
+  display: block;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.banner-text-group {
+  opacity: 0;
+  text-align: center;
+  transform: translateX(200%);
+  opacity: 0;
+  animation: slide-in-anim 2.5s ease-out forwards;
+
+}
+
+@keyframes slide-in-anim {
+
+  20% {
+    opacity: 1;
+    transform: translateX(0) translateY(-50px);
+  }
+
+  40% {
+    opacity: 1;
+    transform: translateX(0) translateY(0);
+  }
+
+  70% {
+    opacity: 1;
+    transform: translateX(0) translateY(-5px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Banner Section  CSS End */
+
+/* Home Page Content Section CSS Start */
+.home-page-content {
+  padding: 30px 0;
+}
+
+.home-page-content-text {
+  padding: 20px;
+}
+
+.home-page-content-text p {
+  margin-bottom: 10px;
+  color: #545556;
+  font-weight: 500;
+}
+
+/* Home Page Content Section CSS End */
+
+/* Home Page Cards Section CSS Start*/
+.home-page-cards-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.home-page-cards {
+  width: 32%;
+  position: relative;
+  margin-bottom: 25px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.home-page-cards-image {
+  min-height: 300px;
+  height: 100%;
+  width: 100%;
+
+}
+
+.home-page-cards-image img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.home-page-cards-content a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0 0 0/50%);
+  background-blend-mode: multiply;
+  color: #fff;
+  font-size: 22px;
+}
+
+/* Home Page Cards Section CSS End */
+
+
+/* Footer CSS Start */
+.footer {
+  background-color: #fcebdd;
+  padding: 40px 0;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1170px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+.logo-bottom img {
+  width: 100%;
+  max-width: 230px;
+}
+
+.footer-items {
+  width: 30%;
+}
+
+.footer-items h3 {
+  font-size: 25px;
+  margin-bottom: 12px;
+  color: #163a68;
+}
+
+.footer-items .social-icons {
+  margin-top: 10px;
+}
+
+
+.footer-items ul li a {
+  font-size: 17px;
+  padding: 2px 0;
+  color: #545556;
+  font-weight: 500;
+}
+
+.copyright {
+  padding: 15px 0;
+  text-align: center;
+  margin: auto 0;
+  border-top: 1px solid #163a68;
+  border-bottom: 1px solid #163a68;
+}
+
+.copyright p {
+  color: #545556;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Footer CSS End */
