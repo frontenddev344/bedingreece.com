@@ -108,6 +108,7 @@ img {
 
 .social-icons .menu-social-icons i:hover {
   background: #163a68;
+  background:#1d5232;
   transform: scale(1.1);
 }
 
@@ -144,7 +145,7 @@ img {
 
 .main-navbar ul li a.active {
   color: #76290B;
-  color: #036d2e;
+  color: #1d5232;
   border-bottom: 1px solid #76290B;
 }
 
@@ -166,22 +167,22 @@ img {
 }
 
 .main-navbar ul li a:hover {
-  color: #1e3226;
+  color: #1d5232;
 }
 
 
 .site-header.fixed-header {
   background-color: #fff;
-  color: #036d2e;
+  color: #1d5232;
 }
 
 .site-header.fixed-header .menu-icon {
-  color: #036d2e;
-  border-color: #036d2e;
+  color:#1d5232;
+  border-color: #1d5232;
 }
 
 .site-header.fixed-header .contact ul li a {
-  color: #036d2e;
+  color: #1d5232;
   font-weight: 500;
 }
 
@@ -235,12 +236,12 @@ img {
 }
 
 .main-navbar ul li a:hover {
-  color: #163a68;
+  color: #1d5232;
   background-color: #fcebdd;
 }
 
 .main-navbar ul li a.active {
-  color: #163a68;
+  color: #1d5232;
   background-color: #fcebdd;
 }
 
@@ -522,6 +523,7 @@ section.home-page-cards-section {
   font-size: 17px;
   background-color: #fffcfc;
   color: #76290B;
+  color: #1d5232;
   line-height: normal;
   margin: 0 1px;
   transition: 0.3s all ease-in-out;
@@ -615,11 +617,11 @@ p {
 
 .heading-like {
   font-weight: 700;
-  color: #036d2e;
+  color:#1e3226
 }
 
 .list-icon {
-  color: #036d2e;
+  color: #1e3226;
   margin-right: 10px;
   display: inline-block;
 }
@@ -648,7 +650,9 @@ text-align: center;
   display: inline-block;
   margin: 10px;
   color: #fff;
-  background-color: #036d2e;
+  color: #163a68;
+  background-color:#1d5232;
+  border-color: #40e0d0;
   outline: none;
   padding: 10px 15px;
   font-size: 17px;
@@ -708,7 +712,7 @@ section.contact-us-content {
 
 .contact-us-group ul li a,.contact-us-group p a
  {
-  color:#036d2e;
+  color:#1d5232;
 }
 
 .contact-us-group ul li a:hover,
@@ -723,7 +727,6 @@ section.contact-us-content {
 }
 
 .privacy-policy-group {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 20px 25px;
   border-radius: 10px;
   margin-bottom: 25px;
@@ -739,12 +742,12 @@ section.contact-us-content {
 }
 
 
-.privacy-policy-group p {
+.privacy-policy-group p{
   margin-bottom: 10px;
   color: #545556;
 }
 .privacy-policy-group p a {
-  color:#163a68;
+  color:#1d5232;
   font-weight: 600;
 }
 .privacy-policy-group p a:hover,.privacy-policy-group ul li a:hover  {
@@ -754,14 +757,70 @@ section.contact-us-content {
 .privacy-policy-group ul li {
   list-style-type: disc;
   margin-left: 16px;
+  color: #545556;
 }
 
 .privacy-policy-group ul li a {
-  color: #163a68;
+  color: #1d5232;
 }
 
 /* Privacy Policy Page CSS Start */
 
+
+/* Terms Conditons CSS Start */
+.terms-conditions-content {
+  padding: 50px 0;
+}
+
+.terms-conditions-group {
+  padding: 15px;
+  border: 1px solid #c7c9cb;  
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.terms-conditions-group:last-child {
+  margin-bottom: 0;
+}
+
+.terms-conditions-group h2 {
+  margin-bottom: 8px;
+}
+
+.terms-conditions-group h3 {
+  margin-bottom: 8px;
+  font-size: 22px;
+}
+
+.terms-conditions-group h4 {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.terms-conditions-group p {
+  color: #454545;
+  margin-bottom: 10px;
+}
+.terms-conditions-group p a{
+  color: #1d5232;
+  font-weight: 600;
+}
+.terms-conditions-group p a:hover{
+  color: red;
+}
+.terms-conditions-group ul {
+  margin-bottom: 8px;
+}
+
+.terms-conditions-group ul li {
+  color: #545556;
+  list-style: disc;
+  margin-left: 17px;
+  margin-bottom: 10px;
+}
+
+/* Terms Conditons CSS End */
 
 
 
