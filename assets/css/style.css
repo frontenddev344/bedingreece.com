@@ -135,15 +135,16 @@ img {
 .dropdown-arrow {
   margin-left: 10px;
 }
-.contact ul li a{
-font-size: 20px;
-font-weight: 500;
+
+.contact ul li a {
+  font-size: 20px;
+  font-weight: 500;
 }
 
 
 .main-navbar ul li a.active {
   color: #76290B;
-  color: #036d2e ;
+  color: #036d2e;
   border-bottom: 1px solid #76290B;
 }
 
@@ -171,13 +172,15 @@ font-weight: 500;
 
 .site-header.fixed-header {
   background-color: #fff;
-  color:#036d2e;
+  color: #036d2e;
 }
+
 .site-header.fixed-header .menu-icon {
   color: #036d2e;
-  border-color:#036d2e;
+  border-color: #036d2e;
 }
-.site-header.fixed-header .contact ul li a{
+
+.site-header.fixed-header .contact ul li a {
   color: #036d2e;
   font-weight: 500;
 }
@@ -393,6 +396,7 @@ font-weight: 500;
 section.home-page-cards-section {
   padding: 20px 0;
 }
+
 .home-page-cards-wrapper {
   display: flex;
   justify-content: space-between;
@@ -402,7 +406,7 @@ section.home-page-cards-section {
 .home-page-cards {
   width: 31%;
   position: relative;
-  margin-bottom:40px;
+  margin-bottom: 40px;
   overflow: hidden;
   border-radius: 5px;
 }
@@ -441,10 +445,10 @@ section.home-page-cards-section {
 
 /* Footer CSS Start */
 .footer {
-background-image: url("../images/footer-bg1.jpg");
-background-color:rgba(0 0 0/50%);
-background-position: center;
-background-blend-mode: multiply;
+  background-image: url("../images/footer-bg1.jpg");
+  background-color: rgba(0 0 0/50%);
+  background-position: center;
+  background-blend-mode: multiply;
   padding: 40px 0;
 }
 
@@ -470,7 +474,7 @@ background-blend-mode: multiply;
 .footer-items h3 {
   font-size: 25px;
   margin-bottom: 12px;
-  color:#fff;
+  color: #fff;
 }
 
 .footer-items .social-icons {
@@ -481,7 +485,7 @@ background-blend-mode: multiply;
 .footer-items ul li a {
   padding: 7px 0;
   color: #fff;
- }
+}
 
 .copyright {
   padding: 15px 0;
@@ -517,7 +521,7 @@ background-blend-mode: multiply;
   border-radius: 50%;
   font-size: 17px;
   background-color: #fffcfc;
-  color:#76290B;
+  color: #76290B;
   line-height: normal;
   margin: 0 1px;
   transition: 0.3s all ease-in-out;
@@ -530,6 +534,7 @@ background-blend-mode: multiply;
 .social-icons i:hover {
   transform: scale(1.1);
 }
+
 /* Social Icons CSS End */
 
 
@@ -537,6 +542,7 @@ background-blend-mode: multiply;
 .pages-intro {
   padding-top: 50px;
 }
+
 .pages-intro-wrapper {
   max-width: 1100px;
   margin: 0 auto;
@@ -545,8 +551,8 @@ background-blend-mode: multiply;
 .pages-intro-wrapper p {
   margin-bottom: 10px;
   font-size: 17px;
-  color:#545556;
-text-align: center;
+  color: #545556;
+  text-align: center;
 }
 
 .pages-cards {
@@ -558,50 +564,62 @@ text-align: center;
   border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 13px -20px, rgba(0, 0, 0, 0.3) 0px 30px 15px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-.pages-cards:hover .pages-cards-image img{
+
+.pages-cards:hover .pages-cards-image img {
   transform: scale(1.2);
 }
-.pages-cards:nth-child(even){
+
+.pages-cards:nth-child(even) {
   flex-direction: row-reverse;
 }
+
 .pages-cards-image {
   width: 40%;
   overflow: hidden;
   border-radius: 10px;
 }
+
 .pages-cards-image img {
   object-fit: cover;
   height: 100%;
   width: 100%;
   transition: all 0.6s ease-in-out;
 }
-.pages-cards-content{
+
+.pages-cards-content {
   width: 60%;
   padding: 20px;
 }
-.pages-cards-content ul li,p {
+
+.pages-cards-content ul li,
+p {
   font-size: 17px;
   margin-bottom: 10px;
   color: #545556;
 }
+
 .pages-cards-text-group {
   margin: 14px 0px;
 }
-.pages-cards-text-group p{
+
+.pages-cards-text-group p {
   font-size: 17px;
   margin-bottom: 5px;
   color: #545556;
 
 }
-.pages-cards-text-group p:last-child{
+
+.pages-cards-text-group p:last-child {
   margin-bottom: 0;
 }
-.heading-like{
+
+.heading-like {
   font-weight: 700;
   color: #036d2e;
 }
+
 .list-icon {
-  color:#036d2e;
+  color: #036d2e;
   margin-right: 10px;
   display: inline-block;
 }
@@ -609,6 +627,7 @@ text-align: center;
 .pages-cards-section {
   padding: 50px 0;
 }
+
 .pages-after-cards-text-section {
   padding-bottom: 50px;
 }
@@ -618,12 +637,13 @@ text-align: center;
   color: #545556;
   max-width: 1100px;
   font-size: 17px;
-
+text-align: center;
 }
 
 .pages-after-cards-text-wrapper p:last-child {
   margin-bottom: 0;
 }
+
 .pages-link-btn {
   display: inline-block;
   margin: 10px;
@@ -638,15 +658,112 @@ text-align: center;
   text-align: center;
   border: 1px solid transparent;
   font-weight: 400;
- }
+}
 
 .pages-link-btn:hover {
   transform: scale(1.05);
 }
 
 
+/* Contact Us CSS Start */
+section.contact-us-content {
+  padding: 50px 0;
+}
+.contact-us-wrapper h2 {
+  text-align: center;
+  margin: 0 auto 35px auto;
+}
+
+.contact-us-group {
+  padding: 15px;
+  border: 1px solid #c7c9cb;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.contact-us-group:last-child {
+  margin-bottom: 0;
+}
+
+.contact-us-group h3 {
+  margin-bottom: 8px;
+  font-size: 22px;
+}
+
+.contact-us-group p {
+  color: #545556;
+  margin-bottom: 10px;
+}
+
+.contact-us-group ul {
+  margin-bottom: 8px;
+}
+
+.contact-us-group ul li {
+  color: #545556;
+  list-style: disc;
+  margin-left: 17px;
+  margin-bottom: 10px;
+}
+
+.contact-us-group ul li a,.contact-us-group p a
+ {
+  color:#036d2e;
+}
+
+.contact-us-group ul li a:hover,
+.contact-us-group p a:hover {
+  color: red;
+}
+/* Contact Us CSS End */
+
+/* Privacy Policy Page CSS Start */
+.privacy-policy {
+  padding: 40px 0;
+}
+
+.privacy-policy-group {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px 25px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  border: 1px solid #c7c9cb;
+}
+.privacy-policy-group:last-child{
+  margin-bottom: 0;
+}
+
+.privacy-policy-group h3 {
+  font-size: 22px;
+  margin-bottom: 11px;
+}
+
+
+.privacy-policy-group p {
+  margin-bottom: 10px;
+  color: #545556;
+}
+.privacy-policy-group p a {
+  color:#163a68;
+  font-weight: 600;
+}
+.privacy-policy-group p a:hover,.privacy-policy-group ul li a:hover  {
+  color:red;
+}
+
+.privacy-policy-group ul li {
+  list-style-type: disc;
+  margin-left: 16px;
+}
+
+.privacy-policy-group ul li a {
+  color: #163a68;
+}
+
+/* Privacy Policy Page CSS Start */
+
+
 
 
 
 /* Pages CSS End */
-
