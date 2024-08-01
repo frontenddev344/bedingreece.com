@@ -274,9 +274,7 @@ font-weight: 500;
   display: none;
 }
 
-.desktop-menu-option-hide {
-  display: block;
-}
+
 
 /* .mobile-menu-hide {
   display: none;
@@ -286,11 +284,6 @@ font-weight: 500;
   justify-content: space-between;
   z-index: 100;
   width: 100%;
-}
-
-
-.desktop-menu-option-hide {
-  display: block;
 }
 
 .button-dropdown {
