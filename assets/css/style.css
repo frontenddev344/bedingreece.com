@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   padding: 0;
@@ -11,7 +9,8 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+
+  font-family: "Raleway", sans-serif;
   word-break: break-word;
   background-color: #bfaea4;
 }
@@ -19,7 +18,7 @@ body {
 button,
 input,
 textarea {
-  font-family: "Poppins", sans-serif;
+    font-family: "Raleway", sans-serif;
   font-size: 14px;
 }
 
@@ -146,6 +145,10 @@ img {
 .dropdown-arrow {
   margin-left: 10px;
 }
+ .button-dropdown {
+  position: relative;
+}
+
 
 .contact {
   text-align: right;
@@ -265,13 +268,6 @@ img {
   border-radius: 50%;
 }
 
-.button-dropdown {
-  position: relative;
-}
-
-/* .main-navbar .dropdown.dropping .dropdown {
-  display: block;
-} */
 
 /* Header CSS End */
 
@@ -641,7 +637,7 @@ p {
 }
 
 .heading-like {
-  font-weight: 700;
+  font-weight: 600;
   color: #1e3226;
   color: #30d5c8;
 }
@@ -667,6 +663,7 @@ p {
   margin: 0 auto 10px auto;
   max-width: 1100px;
   text-align: center;
+  font-size: 17px;
 }
 
 .pages-after-cards-text-wrapper p:last-child {
@@ -748,9 +745,8 @@ section.contact-us-content {
 
 .contact-us-group ul li a:hover,
 .contact-us-group p a:hover {
-  color: red;
+  color: rgb(246, 75, 75);
 }
-
 /* Contact Us CSS End */
 
 /* Privacy Policy Page CSS Start */
@@ -775,6 +771,11 @@ section.contact-us-content {
   margin-bottom: 11px;
   color: #30d5c8;
 }
+.privacy-policy-group h4 {
+  font-size: 17px;
+  margin-bottom: 11px;
+  color: #30d5c8;
+}
 
 
 .privacy-policy-group p {
@@ -783,7 +784,7 @@ section.contact-us-content {
 }
 
 .privacy-policy-group p a {
-  color: #1d5232;
+  color: #30d5c8;
   font-weight: 600;
 }
 
@@ -795,6 +796,7 @@ section.contact-us-content {
 .privacy-policy-group ul li {
   list-style-type: disc;
   margin-left: 16px;
+  margin-bottom:12px;
 }
 
 .privacy-policy-group ul li a {
