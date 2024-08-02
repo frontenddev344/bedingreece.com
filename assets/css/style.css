@@ -107,7 +107,6 @@ img {
 
 .main-navbar ul {
   display: flex;
-  gap: 10px;
   justify-content: center;
   flex-direction: column;
 }
@@ -200,7 +199,7 @@ img {
   font-size: 23px;
   padding: 5px 15px;
   border: 1px solid #fff;
-  transition: 0.4s all ease-in-out;
+  transition: 0.3s all ease-in-out;
 }
 
 .menu-icon:hover {
