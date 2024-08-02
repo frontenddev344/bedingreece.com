@@ -191,7 +191,7 @@
 
     .social-icons {
         text-align: left;
-       }
+    }
 
     .logo img {
         max-width: 185px;
@@ -331,6 +331,14 @@
         margin-bottom: 0;
     }
 
+    .logo-bottom.footer-items {
+        text-align: center;
+    }
+
+    .social-icons {
+        text-align: center;
+    }
+
     .copyright p {
         font-size: 12px;
     }
@@ -354,6 +362,10 @@
 
     .pages-cards-content h2 {
         font-size: 18px;
+    }
+
+    .pages-link-btn {
+        font-size: 12px;
     }
 
 
