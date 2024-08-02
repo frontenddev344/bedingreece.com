@@ -154,10 +154,7 @@
         display: block;
     }
 
-    .main-navbar {
-        width: 100%;
-    }
-
+   
     .banner-image {
         height: 400px;
     }
@@ -311,6 +308,9 @@
     .menu-icon {
         font-size: 18px;
 
+    }
+    .main-navbar {
+        width: 100%;
     }
 
     .logo-bottom.footer-items {
