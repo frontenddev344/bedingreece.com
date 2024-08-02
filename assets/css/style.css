@@ -93,7 +93,9 @@ img {
 
 .logo {
   text-align: center;
+  width: 40%;
 }
+
 
 .logo img {
   width: 100%;
@@ -144,9 +146,12 @@ img {
 .dropdown-arrow {
   margin-left: 10px;
 }
-
+.contact{
+  text-align: right;
+  width: 30%;
+}
 .contact ul li a {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -172,6 +177,9 @@ border-bottom: none;
   align-items: center;
   color: #fff;
   width: 100%;
+}
+.menu-icon-container{
+width: 30%;
 }
 
 
@@ -366,16 +374,15 @@ section.home-page-cards-section {
   overflow: hidden;
   border-radius: 5px;
 }
+ 
 .home-page-cards:hover .home-page-cards-image img {
 transform:scale(1.2);
 }
 
 
 .home-page-cards-image {
-  min-height: 300px;
-  height: 100%;
+  height: 350px;
   width: 100%;
-
 }
 
 .home-page-cards-image img {
@@ -383,6 +390,9 @@ transform:scale(1.2);
   height: 100%;
   width: 100%;
   transition: all 0.5s ease-in-out;
+}
+.home-page-cards-content {
+  text-align: center;
 }
 
 .home-page-cards-content a {
@@ -418,8 +428,7 @@ transform:scale(1.2);
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  max-width: 1170px;
-  padding-bottom: 30px;
+   padding-bottom: 30px;
   overflow: hidden;
 }
 
@@ -430,7 +439,7 @@ transform:scale(1.2);
 
 .footer-items {
   width: 30%;
-  padding: 0 20px;
+  padding: 0 30px;
 }
 
 .logo-bottom {
