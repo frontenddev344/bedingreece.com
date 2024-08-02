@@ -13,6 +13,7 @@ body {
   font-family: "Raleway", sans-serif;
   word-break: break-word;
   background-color: #bfaea4;
+  /* background-color: #e4e6da;   Alternative */
 }
 
 button,
@@ -62,18 +63,11 @@ img {
   padding: 0 15px;
 }
 
-/* #76290B
-  
-#30d5c8; number 1
-#e0bd2b number 2
- #96351e  number 3 headings
-#036d2e
-
-#cf8e55
-#383230
-#854621
-
-#9db0a3*/
+/* 
+#728c5a
+#f1a500
+#dmc740
+*/
 
 /* Global CSS End */
 
@@ -168,6 +162,8 @@ img {
 
 .site-header.fixed-header {
   background-color: #30d5c8;
+/* background-color: #138b89;     Alternative */
+/* background-color: #f28500;     Alternative */
   border-bottom: none;
 }
 
@@ -214,6 +210,8 @@ img {
   height: 100vh;
   width: 50%;
   background-color: #30d5c8;
+;
+  /* background-color: #138b89;  Alternative */
   transform: translateX(-100%);
   transition: all 0.2s linear;
   z-index: 50;
@@ -399,9 +397,10 @@ section.home-page-cards-section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0 0 0/65%);
+  background-color: rgba(0 0 0/60%);
   background-blend-mode: multiply;
   color: #30d5c8;
+  /* color: #138b89;  Alternative */
   font-size: 22px;
 }
 /* Home Page Cards Section CSS End */
@@ -441,6 +440,7 @@ section.home-page-cards-section {
   font-size: 25px;
   margin-bottom: 12px;
   color: #30d5c8;
+
 }
 
 .footer-items .social-icons {
@@ -463,8 +463,10 @@ section.home-page-cards-section {
 
 .footer .footer-items ul li a:hover {
   border-bottom: 1px solid #30d5c8;
+  /* border-bottom:1px solid #728c5a;  Alternative */
   transform: translateX(5px);
   color: #30d5c8;
+  /* color: #728c5a; Alternative */
 }
 
 .copyright {
@@ -509,6 +511,7 @@ section.home-page-cards-section {
 .social-icons i:hover {
   color: #fff;
   background-color: #30d5c8;
+  /* background-color: #728c5a; Alternative */
   transform: translateY(2px);
 }
 
@@ -631,12 +634,13 @@ p {
 
 .heading-like {
   font-weight: 600;
-  color: #1e3226;
   color: #30d5c8;
-}
+  /* color: #728c5a; Alternative */
+} 
 
 .list-icon {
   color: #30d5c8;
+  /* color: #728c5a; Alternative */
   margin-right: 10px;
   display: inline-block;
   margin-top:5px;
@@ -666,8 +670,8 @@ p {
 .pages-link-btn {
   display: inline-block;
   margin: 10px;
-  background-color: #1d5232;
   background-color: #30d5c8;
+  /* background-color: #728c5a; Alterntive  */
   outline: none;
   padding: 10px 15px;
   transition: 0.3s all ease-in-out;
@@ -713,6 +717,7 @@ section.contact-us-content {
   margin-bottom: 8px;
   font-size: 22px;
   color: #30d5c8;
+  /* color: #728c5a; Alternative */
 }
 
 .contact-us-group p {
@@ -734,6 +739,7 @@ section.contact-us-content {
 .contact-us-group ul li a,
 .contact-us-group p a {
   color: #30d5c8;
+  /* color: #728c5a; Alternative */
 }
 
 .contact-us-group ul li a:hover,
@@ -763,11 +769,13 @@ section.contact-us-content {
   font-size: 22px;
   margin-bottom: 11px;
   color: #30d5c8;
+  /* color: #728c5a; Alternative  */
 }
 .privacy-policy-group h4 {
   font-size: 17px;
   margin-bottom: 11px;
   color: #30d5c8;
+  /* color: #728c5a; Alternative  */
 }
 
 
@@ -778,7 +786,8 @@ section.contact-us-content {
 
 .privacy-policy-group p a {
   color: #30d5c8;
-  font-weight: 600;
+  /* color: #728c5a; Alternative  */
+   font-weight: 600;
 }
 
 .privacy-policy-group p a:hover,
@@ -794,6 +803,7 @@ section.contact-us-content {
 
 .privacy-policy-group ul li a {
   color: #1d5232;
+  color: #728c5a;
 }
 
 /* Privacy Policy Page CSS Start */
@@ -828,12 +838,14 @@ section.contact-us-content {
 .terms-conditions-group h2 {
   margin-bottom: 8px;
   color: #30d5c8;
+  /* color: #728c5a; Alternative   */
 }
 
 .terms-conditions-group h3 {
   margin-bottom: 8px;
   font-size: 22px;
   color: #30d5c8;
+  /* color: #728c5a; Alternative   */
 }
 
 .terms-conditions-group h4 {
@@ -848,6 +860,7 @@ section.contact-us-content {
 
 .terms-conditions-group p a {
   color: #30d5c8;
+  /* color: #728c5a; Alternative  */
   font-weight: 600;
 }
 
