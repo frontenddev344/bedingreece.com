@@ -297,7 +297,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0 0 0/75%);
+  background-color: rgba(0 0 0/80%);
   background-blend-mode: multiply;
   overflow: hidden;
 }
