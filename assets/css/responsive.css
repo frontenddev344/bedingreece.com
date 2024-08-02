@@ -94,6 +94,9 @@
         height: 30px;
         font-size: 16px;
     }
+    .copyright p {
+        font-size: 14px;
+   }
 
     /* Pages CSS Start */
 
@@ -146,6 +149,9 @@
 
     .footer .footer-items ul li a {
         font-size: 14px;
+    }
+    .copyright p {
+         font-size: 13px;
     }
 
     /* Pages CSS Start */
@@ -200,6 +206,9 @@
 
     .footer-items:last-child {
         margin-bottom: 0;
+    }
+    .copyright p {
+             font-size: 12px;
     }
 
     /* Pages CSS Start */
