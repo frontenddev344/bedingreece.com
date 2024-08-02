@@ -404,7 +404,6 @@ section.home-page-cards-section {
   color: #30d5c8;
   font-size: 22px;
 }
-
 /* Home Page Cards Section CSS End */
 
 
@@ -416,7 +415,6 @@ section.home-page-cards-section {
   background-blend-mode: multiply;
   padding: 40px 0;
 }
-
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
@@ -425,7 +423,6 @@ section.home-page-cards-section {
   padding-bottom: 30px;
   overflow: hidden;
 }
-
 .logo-bottom img {
   width: 100%;
   max-width: 230px;
