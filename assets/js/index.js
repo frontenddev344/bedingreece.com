@@ -50,7 +50,11 @@ function AcceptCookies() {
 }
 $(document).ready(function (e) {
   var toTop = $(
-    "<div id='cookie-bar'><div id='contentcookie'><p>    BetYouRoom is your premier hotel comparison site for the Czech Republic. To enhance your browsing experience and provide you with tailored services, we use cookies on our website. If you would like to know more information about Cookie Policy, please review our Privacy Policy there you will find a better explanation regarding our cookies.</p><button id='Cookie' tabindex=1 onclick='AcceptCookies();'>Accept </button><div class='clear'></div></div></div>"
+    "<div id='cookie-bar'><div id='contentcookie'><p>    Το Bed in Greece χρησιμοποιεί cookies για να βελτιώσει την εμπειρία περιήγησής σας, να αναλύσει την επισκεψιμότητα του ιστότοπου και να παρέχει εξατομικευμένο περιεχόμενο και διαφημίσεις. Τα cookies είναι μικρά αρχεία δεδομένων που αποθηκεύονται στη συσκευή σας και μας βοηθούν να
+θυμόμαστε τις προτιμήσεις σας και να βελτιώνουμε τη λειτουργικότητα του ιστότοπού μας.
+Συνεχίζοντας να χρησιμοποιείτε τον ιστότοπό μας, συναινείτε στη χρήση των cookies από εμάς. Για
+περισσότερες πληροφορίες σχετικά με τα cookies που χρησιμοποιούμε και τον τρόπο διαχείρισης
+τους, ανατρέξτε στην Πολιτική Απορρήτου μας</p><button id='Cookie' tabindex=1 onclick='AcceptCookies();'>Accept </button><div class='clear'></div></div></div>"
   ).appendTo("body");
   if (!ReadCookie("sgCookies")) {
     //If the cookie has not been set
