@@ -125,7 +125,7 @@
 
     .menu-icon {
         font-size: 19px;
-        padding: 3px 9px;
+        padding: 6px 10px;
         border-width: 1px;
     }
 
@@ -282,7 +282,7 @@
 @media screen and (max-width:576px) {
     .menu-icon {
         font-size: 18px;
-        padding: 3px 8px;
+
     }
 
     .logo-bottom.footer-items {
