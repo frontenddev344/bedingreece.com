@@ -366,7 +366,11 @@
     .pages-cards-content h2 {
         font-size: 18px;
     }
-    
+    .pages-cards-text-group p,
+    .pages-cards-content ul li,
+    .pages-cards-content p {
+        font-size: 13px;
+    }
 
     .pages-link-btn {
         font-size: 12px;
