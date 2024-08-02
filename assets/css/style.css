@@ -209,7 +209,7 @@ background-color: #1c9290;
   width: 50%;
   background-color: #1c9290;
   transform: translateX(-100%);
-  transition: all 0.2s linear;
+  transition: all 0.7s ease;
   z-index: 50;
   justify-content: flex-start;
   color: #fff;
@@ -864,3 +864,64 @@ section.contact-us-content {
 
 /* Terms Conditons CSS End */
 /* Pages CSS End */
+
+
+
+/* Cookies CSS Start */
+#cookie-bar {
+  background-color:#1c9290;
+  display: block;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+  right: 0;
+  width: 100%;
+  color: #000;
+}
+
+#cookie-bar p {
+  width: 85%;
+  float: left;
+  display: block;
+  line-height: 24px;
+  color: #fff;
+}
+
+#cookie-bar button {
+  float: right;
+  background:#68a6f7;
+  border: none;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+}
+
+#cookie-bar button:hover {
+  color: #163a68;
+  background: #fff;
+
+}
+
+#cookie-bar a {
+  color: #000;
+  font-weight: bold;
+}
+
+#contentcookie {
+  padding: 20px 50px;
+  width: 80%;
+  margin: auto;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Cookies CSS End */
+
