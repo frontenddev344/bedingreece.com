@@ -543,9 +543,8 @@ section.home-page-cards-section {
   overflow: hidden;
 }
 
-.banner-text .pages-banner-text {
+ .pages-banner-text {
   background-color: rgba(0 0 0/50%);
-  background-blend-mode: multiply;
 }
 
 @keyframes slideside {
