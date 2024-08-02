@@ -194,7 +194,7 @@ width: 30%;
   font-size: 23px;
   padding: 5px 15px;
   border: 1px solid #fff;
-  transition: 0.9s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 
 .menu-icon:hover {
@@ -540,6 +540,9 @@ transform:scale(1.2);
   transform: translateX(200%);
   text-align: center;
   overflow: hidden;
+}
+.banner-text .pages-banner-text {
+   background-color: rgba(0 0 0/60%);
 }
 
 @keyframes slideside {
