@@ -54,7 +54,7 @@ $(document).ready(function (e) {
 θυμόμαστε τις προτιμήσεις σας και να βελτιώνουμε τη λειτουργικότητα του ιστότοπού μας.
 Συνεχίζοντας να χρησιμοποιείτε τον ιστότοπό μας, συναινείτε στη χρήση των cookies από εμάς. Για
 περισσότερες πληροφορίες σχετικά με τα cookies που χρησιμοποιούμε και τον τρόπο διαχείρισης
-τους, ανατρέξτε στην Πολιτική Απορρήτου μας</p><button id='Cookie' tabindex=1 onclick='AcceptCookies();'>Accept </button><div class='clear'></div></div></div>"
+τους, ανατρέξτε στην Πολιτική Απορρήτου μας.</p><button id='Cookie' tabindex=1 onclick='AcceptCookies();'>Accept </button><div class='clear'></div></div></div>"
   ).appendTo("body");
   if (!ReadCookie("sgCookies")) {
     //If the cookie has not been set
