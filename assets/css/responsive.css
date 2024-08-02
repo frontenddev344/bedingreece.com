@@ -2,9 +2,16 @@
 
 @media screen and (max-width:992px) {
 
+    .menu-icon {
+        font-size: 20px;
+        padding: 3px 10px;
+
+    }
+
     .banner-image {
         height: 500px;
     }
+
 
     .banner-text h1 {
         font-size: 50px;
@@ -16,6 +23,26 @@
     }
 
     /* Pages CSS Start */
+    .pages-banner-text h1 {
+        font-size: 40px;
+    }
+
+    .pages-cards {
+        padding: 10px;
+    }
+
+    .pages-cards-content {
+        padding: 15px;
+    }
+
+    .pages-cards-text-group p,
+    .pages-cards-content ul li,
+    .pages-cards-content p {
+        font-size: 15px;
+    }
+
+
+
 
     /* Pages CSS End */
 }
@@ -48,6 +75,10 @@
 
     .banner-image {
         height: 400px;
+    }
+
+    .banner-text h1 {
+        font-size: 45px;
     }
 
     .home-page-content {
@@ -94,11 +125,50 @@
         height: 30px;
         font-size: 16px;
     }
+
     .copyright p {
         font-size: 14px;
-   }
+    }
 
     /* Pages CSS Start */
+    .pages-banner-text h1 {
+        font-size: 40px;
+    }
+
+    .pages-cards-section {
+        padding: 40px 0;
+    }
+
+    .pages-link-btn {
+        padding: 9px 9px;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .pages-intro-wrapper p,
+    .pages-after-cards-text-wrapper p {
+        font-size: 15px;
+    }
+
+    .pages-cards-image,
+    .pages-cards-content {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .pages-cards-image {
+        height: 290px;
+    }
+
+    .pages-cards-content {
+        padding: 20px 5px 0;
+    }
+
+    .pages-cards-content h2 {
+        font-size: 22px;
+    }
+
+
 
     /* Pages CSS End */
 
@@ -110,6 +180,19 @@
         padding: 3px 8px;
     }
 
+    .logo-bottom.footer-items {
+        text-align: left;
+    }
+
+    .social-icons div {
+        width: 100%;
+        margin-top: 2px;
+    }
+
+    .social-icons {
+        text-align: left;
+       }
+
     .logo img {
         max-width: 185px;
     }
@@ -120,6 +203,10 @@
 
     .banner-image {
         height: 350px;
+    }
+
+    .banner-text h1 {
+        font-size: 35px;
     }
 
     .home-page-content {
@@ -150,11 +237,47 @@
     .footer .footer-items ul li a {
         font-size: 14px;
     }
+
     .copyright p {
-         font-size: 13px;
+        font-size: 13px;
     }
 
     /* Pages CSS Start */
+    .pages-banner-text h1 {
+        font-size: 30px;
+    }
+
+    .pages-intro-wrapper p,
+    .pages-after-cards-text-wrapper p {
+        font-size: 14px;
+    }
+
+
+    .pages-cards {
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .pages-cards-image {
+        height: 250px;
+    }
+
+    .pages-cards-content h2 {
+        font-size: 20px;
+    }
+
+    .pages-cards-text-group p,
+    .pages-cards-content ul li,
+    .pages-cards-content p {
+        font-size: 14px;
+    }
+
+    .pages-link-btn {
+        padding: 9px 10px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
 
     /* Pages CSS End */
 
@@ -207,11 +330,32 @@
     .footer-items:last-child {
         margin-bottom: 0;
     }
+
     .copyright p {
-             font-size: 12px;
+        font-size: 12px;
     }
 
     /* Pages CSS Start */
+    .pages-banner-text h1 {
+        font-size: 25px;
+    }
+
+    .pages-intro {
+        padding-top: 40px;
+    }
+
+    .pages-cards-section {
+        padding: 40px 0;
+    }
+
+    .pages-cards-image {
+        height: 200px;
+    }
+
+    .pages-cards-content h2 {
+        font-size: 18px;
+    }
+
 
     /* Pages CSS End */
 

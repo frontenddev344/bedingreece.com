@@ -304,11 +304,6 @@ width: 30%;
   overflow: hidden;
 }
 
-.banner-first-letter {
-  font-size: 75px;
-  font-family: "Cinzel", serif;
-}
-
 .banner-text h1 {
   font-size: 55px;
   color: #fff;
@@ -358,9 +353,8 @@ width: 30%;
 
 /* Home Page Cards Section CSS Start*/
 section.home-page-cards-section {
-  padding: 20px 0;
+  padding: 0  0 25px 0;
 }
-
 .home-page-cards-wrapper {
   display: flex;
   justify-content: space-between;
@@ -587,6 +581,9 @@ transform:scale(1.2);
 
 .pages-cards:hover .pages-cards-image img {
   transform: scale(1.2);
+}
+.pages-cards:last-child{
+  margin-bottom: 0;
 }
 
 .pages-cards:nth-child(even) {
