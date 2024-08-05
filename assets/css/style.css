@@ -12,10 +12,7 @@ body {
 
   font-family: "Raleway", sans-serif;
   word-break: break-word;
-  background-color: #bfaea4;
-  background-color: #92aac3 ;
  background-color: #d9B29c;
- background-color: #fff;
 }
 
 button,
@@ -165,8 +162,6 @@ display: none;
 
 .site-header.fixed-header {
 background-color: #1c9290;
-background-color: #09371f;
-background-color: #558183;
   border-bottom: none;
 }
 
@@ -462,7 +457,7 @@ section.home-page-cards-section {
 .footer .footer-items ul li a:hover {
   border-bottom: 1px solid #1c9290;
   transform: translateX(5px);
-  color: #30d5c8;
+  color: #1c9290;
 }
 .footer-social-icons {
   margin-top: 5px;
