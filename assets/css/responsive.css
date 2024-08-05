@@ -93,21 +93,25 @@
     .terms-conditions-content {
         padding: 40px 0;
     }
+
     .terms-conditions-group p,
     .terms-conditions-group ul li {
         font-size: 15px;
     }
+
     .pages-after-cards-text-section {
         padding-bottom: 40px;
     }
+
     .terms-conditions-group h3 {
         font-size: 20px;
-     }
+    }
+
     /* Terms Conditions CSS End */
 
     /* Pages CSS End */
 
-    
+
     /* Cookies CSS Start */
     #cookie-bar button {
         float: left;
@@ -126,6 +130,7 @@
         padding: 20px 10px;
         width: 100%;
     }
+
     /* Cookies CSS End */
 }
 
@@ -154,7 +159,7 @@
         display: block;
     }
 
-   
+
     .banner-image {
         height: 400px;
     }
@@ -201,6 +206,14 @@
     .footer-quick-links {
         order: 1;
     }
+
+    .logo-bottom {
+        width: 100%;
+        margin-bottom: 45px;
+        text-align: start;
+    }
+
+  
 
     .social-icons i {
         width: 30px;
@@ -278,6 +291,7 @@
     .privacy-policy-group h3 {
         font-size: 20px;
     }
+
     .privacy-policy-group h3 {
         font-size: 19px;
     }
@@ -287,20 +301,20 @@
     /* Terms Conditions CSS Start */
     .terms-conditions-group h3 {
         font-size: 19px;
-     }
+    }
 
     /* Terms Conditions CSS End */
     /* Pages CSS End */
-        /* Cookies CSS Start */
-        #cookie-bar button {
-            font-size: 13px;
-        }
-    
-        #cookie-bar p {
-            font-size: 13px;
-        }
-    
-        /* Cookies CSS End */
+    /* Cookies CSS Start */
+    #cookie-bar button {
+        font-size: 13px;
+    }
+
+    #cookie-bar p {
+        font-size: 13px;
+    }
+
+    /* Cookies CSS End */
 
 }
 
@@ -309,6 +323,7 @@
         font-size: 18px;
 
     }
+
     .main-navbar {
         width: 100%;
     }
@@ -358,17 +373,21 @@
         height: 250px;
     }
 
-    .footer-items {
-        width: 47%;
-    }
-
-    .logo-bottom img {
-        width: 90%;
-        max-width: 230px;
-    }
 
     .footer .footer-items ul li a {
         font-size: 14px;
+    }
+    .social-icons {
+        justify-content: flex-start;
+    }
+
+    .footer-links {
+        width: 50%;
+         }
+
+    .footer-quick-links {
+        width: 50%;
+        padding: 0 30px;
     }
 
     .copyright p {
@@ -439,18 +458,20 @@
     .terms-conditions-group ul li {
         font-size: 14px;
     }
+
     .terms-conditions-group h3 {
         font-size: 18px;
-     }
+    }
+
     /* Terms Conditions CSS End */
     /* Pages CSS End */
 
-        /* Cookies CSS Start */
-        #cookie-bar p {
-            font-size: 13px;
-        }
-    
-        /* Cookies CSS End */
+    /* Cookies CSS Start */
+    #cookie-bar p {
+        font-size: 13px;
+    }
+
+    /* Cookies CSS End */
 
 }
 
@@ -496,6 +517,7 @@
         width: 100%;
         text-align: center;
         margin-bottom: 40px;
+        padding: 0 5px;
     }
 
     .footer-items:last-child {
@@ -577,7 +599,7 @@
         font-size: 13px;
     }
 
-   
+
 
     /* Contact Us CSS End */
 
@@ -598,9 +620,11 @@
     .terms-conditions-group ul li {
         font-size: 13px;
     }
+
     .terms-conditions-group h3 {
-          font-size: 17px;
-       }
+        font-size: 17px;
+    }
+
     /* Terms Conditions CSS End */
 
     /* Pages CSS End */
