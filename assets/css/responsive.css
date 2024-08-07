@@ -135,6 +135,9 @@
 }
 
 @media screen and (max-width:767px) {
+    .main-navbar {
+        width: 40%;
+    }
     .contact {
         display: none;
     }
