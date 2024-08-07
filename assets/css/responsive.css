@@ -151,13 +151,11 @@
         order: 1;
         text-align: right;
     }
-
     .menu-icon {
         font-size: 19px;
         padding: 6px 10px;
         border-width: 1px;
     }
-
     .desktop-menu-option-hide {
         display: block;
     }
@@ -170,7 +168,6 @@
     .banner-text h1 {
         font-size: 45px;
     }
-
     .home-page-content {
         padding: 40px 0;
     }
