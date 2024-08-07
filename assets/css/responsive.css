@@ -201,10 +201,15 @@
 
     .footer-links {
         order: 1;
+        width: 50%;
     }
 
     .footer-quick-links {
         order: 1;
+        width: 50%;
+    }
+    .social-icons {
+              justify-content: flex-start;
     }
 
     .logo-bottom {
