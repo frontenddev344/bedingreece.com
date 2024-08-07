@@ -197,14 +197,12 @@ background-color: #1c9290;
 .menu-icon:hover {
   border-radius: 50%;
 }
-
-
 .main-navbar {
   position: fixed;
   top: 0;
   left: 0;
   height: 100vh;
-  width: 40%;
+  width: 25%;
   background-color: #1c9290;
   transform: translateX(-100%);
   transition: all 0.7s ease;
@@ -212,8 +210,6 @@ background-color: #1c9290;
   justify-content: flex-start;
   color: #fff;
 }
-
-
 .main-navbar>ul {
   flex-direction: column;
   z-index: 50;
@@ -239,8 +235,6 @@ background-color: #1c9290;
 .menuToggle .main-navbar {
   transform: translateX(0);
 }
-
-
 .close-icon {
   position: absolute;
   top: 20px;
@@ -259,8 +253,6 @@ background-color: #1c9290;
 .close-icon:hover {
   border-radius: 50%;
 }
-
-
 /* Header CSS End */
 
 
