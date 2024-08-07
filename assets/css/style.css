@@ -232,6 +232,7 @@ background-color: #1c9290;
 
 .main-navbar ul li a.active {
   border-color: #fff;
+  color: #fff;
 }
 
 
