@@ -356,13 +356,10 @@ section.home-page-cards-section {
 .home-page-cards:hover .home-page-cards-image img {
   transform: scale(1.2);
 }
-
-
 .home-page-cards-image {
   height: 350px;
   width: 100%;
 }
-
 .home-page-cards-image img {
   object-fit: cover;
   height: 100%;
